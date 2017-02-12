@@ -1,0 +1,3 @@
+def Translate (sPolynomial):
+
+    return;
