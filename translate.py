@@ -1,6 +1,6 @@
 from polyUnit import polyUnit
 def Translate (sPolynomial="1x^2+3x^3+x^2"):
-    translatedPoly= [];
+    translatedPoly=[];
 
     hWords= sPolynomial.split("+");
 
@@ -16,8 +16,6 @@ def Translate (sPolynomial="1x^2+3x^3+x^2"):
         if len(hFactor)==0:
             hFactor=1;
 
-        print(hExponent);
-        print(hFactor);
-
         translatedPoly.append(polyUnit(hExponent, hFactor));
+
     return translatedPoly;
